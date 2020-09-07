@@ -1,11 +1,4 @@
-var ctx = document.getElementById("milestone");
-ctx.innerHTML = testProfile[0]["milestone"];
-
-var ctx = document.getElementById("totalCCU");
-ctx.innerHTML = testProfile[0]["totalCCU"];
-
-var ctx = document.getElementById("testStartTime");
-ctx.innerHTML = changeDateString(testProfile[0]["testStartTime"]);
-
-var ctx = document.getElementById("duration");
-ctx.innerHTML = testProfile[0]["duration"];
+document.getElementById("milestone").innerHTML = testProfile[0]["milestone"];
+document.getElementById("totalCCU").innerHTML = testProfile[0]["totalCCU"];
+document.getElementById("testStartTime").innerHTML = changeDateString(testProfile[0]["testStartTime"]);
+document.getElementById("duration").innerHTML = testProfile[0]["duration"];

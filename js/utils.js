@@ -238,7 +238,7 @@ function getYAxesTick(yAxeType) {
   var ticks = {
     min: 0,
     callback: function(value, index, values) {
-      return number_format(changeYAxeValue(yAxeType, value), 0) + getYAxePostfix(yAxeType);
+      return number_format(changeYAxeValue(yAxeType, value), 1) + getYAxePostfix(yAxeType);
     }
   };
 
@@ -251,7 +251,7 @@ function getYAxesTick(yAxeType) {
 
 /* Date Converter */
 function changeDateString(isoString) {
-  return moment.tz(isoString, "Asia/Seoul").format("YYYY-MM-DD HH:mm");
+  return moment(isoString).format("YYYY-MM-DD HH:mm");
 }
 
 /* Change Y Axe Value */

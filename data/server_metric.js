@@ -1,16 +1,1 @@
-var serverMetric = [
-    {
-        "serviceName": "Sentry_memcached",
-        "cpu": "30% / 20% / 50%",
-        "memory": "20% / 10% / 80%",
-        "cpuCriteria": "80%",
-        "memCriteria": "80%"
-    },
-    {
-        "serviceName": "Fo4book",
-        "cpu": "33% / 20% / 80%",
-        "memory": "22% / 10% / 50%",
-        "cpuCriteria": "80%",
-        "memCriteria": "80%"
-    }
-]
+var serverMetric = [{"serviceName":"servergame","cpu":"0.0 / 0.0 / 0.1","memory":"26.3GB / 26.3GB / 26.3GB","cpuCriteria":"","memCriteria":""},{"serviceName":"perrier","cpu":"0.0 / 0.0 / 0.0","memory":"10.46GB / 10.46GB / 10.46GB","cpuCriteria":"","memCriteria":""},{"serviceName":"simmode","cpu":"0.0 / 0.0 / 0.0","memory":"21.09GB / 21.09GB / 21.09GB","cpuCriteria":"","memCriteria":""},{"serviceName":"trademarket","cpu":"0.0 / 0.0 / 0.0","memory":"19.1GB / 19.1GB / 19.1GB","cpuCriteria":"","memCriteria":""}]

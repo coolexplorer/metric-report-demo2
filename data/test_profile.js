@@ -1,12 +1,1 @@
-var testProfile = [
-    {
-        "milestone": "MS15",
-        "totalCCU": 49000,
-        "pcCCU": 39100,
-        "mobileCCU": 10800,
-        "targetServer": "NEXON",
-        "testStartTime": "2020-06-23T13:48:38Z",
-        "duration": 90,
-        "rampupDuration": 0
-    }
-]
+var testProfile = [{"milestone":"R15","jobName":"cliJob","jobNumber":0,"targetServer":"http://10.86.44.120:32000","totalCCU":0,"CCU":0,"testStartTime":"2020-09-03T16:38:34Z","duration":0,"rampupDuration":0,"gatlingReportLink":"http://apseo-build-fo4.aaa.ad.ea.com:8080/view/QE/job/FO4%20Execute%20Load%20Test%20(Regular)/130/","generators":"APSEO-QE-LG1.aaa.ad.ea.com,APSEO-QE-LG2.aaa.ad.ea.com","timeZone":"UTC+8"}]

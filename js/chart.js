@@ -1,5 +1,5 @@
 var ctx = document.getElementById("cpu").getContext('2d');
-var cpuChart = new Chart(ctx, getChartConfig(makeDataSets(cpuData), "percent"));
+var cpuChart = new Chart(ctx, getChartConfig(makeDataSets(cpuData), ""));
 
 var ctx = document.getElementById("memory").getContext('2d');
 var memChart = new Chart(ctx, getChartConfig(makeDataSets(memoryData), "GB"));
