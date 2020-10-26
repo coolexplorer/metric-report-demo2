@@ -153,6 +153,7 @@ function getChartConfig(datasets, yAxeType) {
         datasets: datasets,
     },
     options: {
+        responsive: true,
         animation: {
             duration: 0
         },
@@ -200,7 +201,7 @@ function getChartConfig(datasets, yAxeType) {
         },
         legend: {
             display: true,
-            position: 'right',
+            position: 'bottom',
             align: 'start',
             labels: {
                 boxWidth: 10,

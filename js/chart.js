@@ -58,11 +58,6 @@ if (element != null) {
     new Chart(element.getContext('2d'), getChartConfig(makeDataSets(heapUsedData), "MB"));
 }
 
-var element = document.getElementById("non_heap_max")
-if (element != null) {
-    new Chart(element.getContext('2d'), getChartConfig(makeDataSets(nonHeapMaxData), "MB"));
-}
-
 var element = document.getElementById("non_heap_used")
 if (element != null) {
     new Chart(element.getContext('2d'), getChartConfig(makeDataSets(nonHeapUsedData), "MB"));
@@ -71,4 +66,34 @@ if (element != null) {
 var element = document.getElementById("threads")
 if (element != null) {
     new Chart(element.getContext('2d'), getChartConfig(makeDataSets(threadsData), ""));
+}
+
+var element = document.getElementById("rpc")
+if (element != null) {
+    new Chart(element.getContext('2d'), getChartConfig(makeDataSets(rpcData), ""));
+}
+
+var element = document.getElementById("rpc_tps")
+if (element != null) {
+    new Chart(element.getContext('2d'), getChartConfig(makeDataSets(rpcTpsData), ""));
+}
+
+var element = document.getElementById("rpc_cumulative")
+if (element != null) {
+    new Chart(element.getContext('2d'), getChartConfig(makeDataSets(rpcCumulativeData), ""));
+}
+
+var element = document.getElementById("rpc_cumulative_counts")
+if (element != null) {
+    new Chart(element.getContext('2d'), getChartConfig(makeDataSets(rpcCumulativeCountsData), ""));
+}
+
+var element = document.getElementById("batch")
+if (element != null) {
+    new Chart(element.getContext('2d'), getChartConfig(makeDataSets(batchData), ""));
+}
+
+var element = document.getElementById("batch_tps")
+if (element != null) {
+    new Chart(element.getContext('2d'), getChartConfig(makeDataSets(batchTpsData), ""));
 }
