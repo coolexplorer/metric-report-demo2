@@ -37,7 +37,7 @@
         "jquery": "3.6.0",
         "datatables.net-bs4": "1.11.5",
         "jquery.easing": "1.4.1",
-        "moment": "2.29.1"
+        "moment": "2.30.1"
     },
     "devDependencies": {
         "browser-sync": "2.27.7",
